@@ -7,7 +7,7 @@ type TypewriterProps = {
   className?: string;
 };
 
-export function Typewriter({ lines, speed = 55, startDelay = 350, className }: TypewriterProps) {
+export function Typewriter({ lines, speed = 42, startDelay = 250, className }: TypewriterProps) {
   const full = lines.join("\n");
   const [count, setCount] = useState(0);
   const [started, setStarted] = useState(false);

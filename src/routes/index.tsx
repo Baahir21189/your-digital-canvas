@@ -172,7 +172,7 @@ function Index() {
             <motion.p
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 1.9 }}
+              transition={{ duration: 0.6, delay: 1.7 }}
               className="mt-6 max-w-md text-lg leading-relaxed text-ink/70"
             >
               I'm a solo creative developer building playful, glossy digital products — from first
@@ -181,7 +181,7 @@ function Index() {
             <motion.div
               initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 2.1 }}
+              transition={{ duration: 0.6, delay: 1.9 }}
               className="mt-8 flex flex-wrap items-center gap-4"
             >
               <motion.a
