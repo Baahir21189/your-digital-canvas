@@ -100,6 +100,15 @@
   animation: marquee 22s linear infinite;
 }
 
+@utility marquee-track-reverse {
+  animation: marquee 26s linear infinite reverse;
+}
+
+@utility glow-candy {
+  box-shadow: 6px 6px 0 0 var(--ink), 0 0 34px 0 color-mix(in oklab, var(--candy) 45%, transparent);
+}
+
+
 @utility shadow-block {
   box-shadow: 6px 6px 0 0 var(--ink);
 }
